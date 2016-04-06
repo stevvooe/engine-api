@@ -452,6 +452,7 @@ type NetworkCreate struct {
 type NetworkCreateRequest struct {
 	NetworkCreate
 	Name string
+	ID   string `json:"Id"`
 }
 
 // NetworkCreateResponse is the response message sent by the server for network create call
